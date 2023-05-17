@@ -22,11 +22,9 @@
   $calon_array[]=array('calon_id'=>'prabowo','calon_name'=>'Prabowo Subianto');
   $calon_array[]=array('calon_id'=>'puan','calon_name'=>'Puan Maharani');
   $calon_array[]=array('calon_id'=>'ridwan','calon_name'=>'Ridwan Kamil');
-  $calon_array[]=array('calon_id'=>'salim','calon_name'=>'Salim Segaf');
   $calon_array[]=array('calon_id'=>'sandiaga','calon_name'=>'Sandiaga Uno');
   $calon_array[]=array('calon_id'=>'sri','calon_name'=>'Sri Mulyani');
   $calon_array[]=array('calon_id'=>'susi','calon_name'=>'Susi Pudjiastuti');
-  $calon_array[]=array('calon_id'=>'risma','calon_name'=>'Tri Rismaharini');
   $calon_array[]=array('calon_id'=>'yenny','calon_name'=>'Yenny Wahid');
   $calon_array[]=array('calon_id'=>'zulkifli','calon_name'=>'Zulkifli Hasan');
 ?>
