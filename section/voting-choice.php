@@ -30,13 +30,11 @@
 ?>
 
 <section aria-label="Voting Capres & Cawapres" class="section-container section-votingchoice" id="voting">
+  <div class="votingchoice-bg"></div>
   <div class="width-max">
     
 	<div class="section-title">
 	  <div class="section-title-main">Voting Capres & Cawapres</div>
-	  <div class="section-title-summary">
-	    Silahkan pilih pasangan <b>Capres</b> dan <b>Cawapres</b> yang paling ideal untuk pemilu 2024
-	  </div>
 	</div>
 	
 	<div class="section-votingchoice-content">

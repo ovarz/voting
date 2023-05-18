@@ -55,8 +55,13 @@ color:var(--bg-1) !important; fill:var(--bg-1) !important;}
 
 
 .section-votingchoice .voting-person-base:after{content:none;}
+.section-votingchoice{--color-default-1:#E0E0E0; background-color:var(--color-default-2); color:var(--color-default-1);
+background:linear-gradient(135deg,#424242 0%,#000000 100%);}
+.votingchoice-bg{position:absolute; z-index:1; top:0; left:0; width:100%; height:100%; opacity:0.34;
+background-attachment:fixed; background-position:bottom center; background-repeat:no-repeat; background-size:cover;}
 .votingchoice-form .svgicon{fill:var(--color-default-1);}
-.votingchoice-select{border-color:rgb(var(--color-border-dark) / 13%); background-color:transparent;}
+.votingchoice-select{border-color:rgb(var(--color-border-light) / 34%); background-color:transparent; color:var(--color-default-1);}
+.votingchoice-select option{color:var(--color-default-2);}
 .votingchoice-error > span{background-color:var(--color-default-4); color:var(--bg-1); box-shadow:var(--shadow-inset);}
 .cover-wave{fill:var(--bg-1);}
 
@@ -70,6 +75,10 @@ color:var(--bg-1) !important; fill:var(--bg-1) !important;}
 .votingresult-number{color:var(--color-default-3); font-size:24px;}
 .votingresult-name{color:var(--color-default-2); margin:var(--size-1) 0;}
 .votingresult-total{color:var(--color-default-1); font-size:24px;}
+
+
+
+footer{background-color:var(--color-default-2); color:var(--bg-2); text-align:center; font-size:12px; padding:var(--size-3);}
 
 
 
@@ -114,6 +123,22 @@ border-radius:var(--rounded-2); box-shadow:var(--shadow-default); overflow-y:aut
 
 
 
+
+
+@media screen and (min-width:0px) and (max-width:1279px){
+  @media screen and (orientation:portrait){
+    .votingchoice-bg{background-image:url("../img/bg-small.jpg");}
+  }
+  
+  @media screen and (orientation:landscape){
+    .votingchoice-bg{background-image:url("../img/bg-medium.jpg");}
+  }
+}
+
+
+
+
+
 @media screen and (min-width:768px){
   .section-votingresult-content{grid-gap:var(--size-6);}
   .voting-result-row{grid-template-columns:144px 1fr 144px; align-items:center;}
@@ -127,6 +152,14 @@ border-radius:var(--rounded-2); box-shadow:var(--shadow-default); overflow-y:aut
 @media screen and (min-width:1024px){
   .voting-result-row{grid-template-columns:233px 1fr 233px;}
   .votingresult-name{font-size:24px;}
+}
+
+
+
+
+
+@media screen and (min-width:1280px){
+  .votingchoice-bg{background-image:url("../img/bg-big.jpg");}
 }
   
   
