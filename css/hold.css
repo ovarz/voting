@@ -78,6 +78,10 @@ background-attachment:fixed; background-position:bottom center; background-repea
 
 
 
+.success-box{background-color:#4f746c; color:var(--bg-2); border-radius:var(--rounded-1); box-shadow:var(--shadow-neumorp);}
+
+
+
 footer{background-color:var(--color-default-2); color:var(--bg-2); text-align:center; font-size:12px; padding:var(--size-3);}
 
 

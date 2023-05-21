@@ -87,6 +87,11 @@ width:var(--line-width); height:var(--line-height);}
 
 
 
+.success-container{margin-bottom:var(--size-4); margin-top:calc(var(--size-2) * -1);}
+.success-box{padding:var(--size-4); font-weight:bold; text-transform:uppercase; letter-spacing:2px;}
+
+
+
 
 
 
