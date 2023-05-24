@@ -17,6 +17,7 @@
   $calon_array[]=array('calon_id'=>'lanyalla','calon_name'=>'La Nyalla Mattalitti');
   $calon_array[]=array('calon_id'=>'luhut','calon_name'=>'Luhut Binsar Panjaitan');
   $calon_array[]=array('calon_id'=>'mahfud','calon_name'=>'Mahfud MD');
+  $calon_array[]=array('calon_id'=>'moeldoko','calon_name'=>'Moeldoko');
   $calon_array[]=array('calon_id'=>'imin','calon_name'=>'Muhaimin Iskandar');
   $calon_array[]=array('calon_id'=>'najwa','calon_name'=>'Najwa Shihab');
   $calon_array[]=array('calon_id'=>'prabowo','calon_name'=>'Prabowo Subianto');
